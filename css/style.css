@@ -1,1 +1,10 @@
 /*-- Put CSS rules here --*/
+header {
+	color: #007e99;
+	font-size: 2.5rem;
+	padding: 20px 50px;
+}
+
+header span {
+	color: #722;
+}
