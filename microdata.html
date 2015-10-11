@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Microdata formats | HTML5 Sandbox</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <!-- Sectioning root -->
+    <header>
+        <h1>Simple <span>HTML5</span> page</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><span>Work</span></li>
+            <li><a href="headings.html">Headings</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1>Microdata</h1>
+        <h2>Implementing microdata</h2>
+        <section>
+            <h1>Basic elements</h1>
+            <p>Adding microdata requires three attributes: <mark>&lt;itemscope&gt;, &lt;itemtype&gt;, &lt;itemsprop&gt;.</p>
+        </section>
+        <!-- Good practice to use heading elements after sectioning element -->
+        <h2>The use of microdata in HTML5</h1>
+        <section> <!-- Sectioning element -->
+        <h1>Example microdata</h1>
+        <div itemscope itemtype="http://schema.org/Person">The American <span itemprop="jobTitle">graphic designer</span> <span itemprop="name">Milton Glaser</span> is the founder of <a hrf="http://miltonglaser.com" itemprop="affiliation">Milton Glaser, Inc.</a> located at <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="streetAddress">207 East 32nd Street</span> in <span itemprop="addressLocality">New York</span>, <span itemprop="addressRegion">NY</span> <span itemprop="postalCode">10016</span> in the <span itemprop="addressCountry">United States</span>The email is <span itemprop="email">studio@miltonglaser.com</span></span></div>
+    </section>
+    </section>
+    <footer>
+        <p>2015 Simple HTML5 page</p>
+    </footer>
+</body>
+
+</html>
