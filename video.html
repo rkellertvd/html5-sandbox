@@ -56,12 +56,21 @@
                 <!-- Sectioning element "article-section" -->
                 <h2>Embed video</h2>
                 <p>This is an article with an embedded video in HTML5</p>
+                <video width="640" height="428" controls="controls">
+                    <source src="assets/sample.m4v" type="video/m4v" />
+                    <source src="assets/sample.ogg" type="video/ogg" />
+                    Your browser does not support the <pre>video</pre> element.
+                </video>
             </section>
-            <video width="640" height="428" controls="controls">
-                <source src="assets/sample.m4v" type="video/m4v" />
-                <source src="assets/sample.ogg" type="video/ogg" />
-                Your browser does not support the <video> element.
-            </video>
+            <section id="posting-audio">
+            <h2>Embed audio</h2>
+            <p>This is an article with an embedded audio in HTML5</p>
+                <audio controls="controls">
+                    <source src="assets/sample_audio.mp3" type="video/mp3" />
+                    <source src="assets/sample_audio.ogg" type="video/ogg" />
+                    Your browser does not support the <pre>audio</pre> element.
+                </audio>
+            </section>
             <footer>
                 <!-- Sectioning element "article-footer" -->
                 <p>Posted by Author,
